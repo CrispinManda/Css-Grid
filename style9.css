@@ -3,12 +3,113 @@
     padding: 0;
     box-sizing: border-box;
 }
+.main{
+    background-color: white;
+    padding: 200px; 
+    /* width: 100%;
+    height: fit-content; */
+}
 .wrapper{
-    background-color: yellow;
+    /* background-color: rgb(151, 151, 150); */
+    border-radius: 20px;
+
 
 }
 .nav ul{
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
+
     
 }
+.box1{
+    grid-area: header1;
+}
+.box2{
+    grid-area: header2;
+}
+.box3{
+    grid-area: header3;
+}
+.box4{
+    grid-area: header4;
+}
+.box5{
+    grid-area: header5;
+}
+.box6{
+    grid-area: header6;
+}
+.box7{
+    grid-area: header7;
+}
+
+.container{
+    display: grid;
+    grid-template-areas:
+      'header1 header1 header2'
+      'header3 header4 header2'
+      'header5 header6 header7';
+    /* gap: 10px; */
+    /* padding: 10px; */
+    width: 100%;
+}
+.container > div{
+    /* background-color: rgba(255, 255, 255, 0.8); */
+  text-align: center;
+  padding: 10px ;
+}
+.box2{
+    background-color: rgb(2, 17, 39);
+    color: white;
+}
+hr{
+    opacity: 50%;
+}
+.box3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.box5{
+    display: flex;
+    flex-direction: row;
+}
+.box6{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.box7{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    background-color: rgb(209, 43, 43);
+    color: white;
+    border:rgb(209, 43, 43);
+    width: 130px;
+    height: 30px;
+    margin: 10px;
+}
+.pic{
+    width: 100px;
+    height:150px ;
+}
+.num{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 0;
+    opacity: 50%;
+}
+.content{
+    margin-left: 10px;
+}
+.new{
+    color: rgb(228, 177, 39);
+    margin: 10px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
