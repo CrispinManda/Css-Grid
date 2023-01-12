@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-.nav{
+.wrapper{
+    background-color: yellow;
+
+}
+.nav ul{
+    display: flex;
+    justify-content: flex-end;
     
 }
